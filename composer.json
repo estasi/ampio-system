@@ -1,0 +1,27 @@
+{
+    "name"       : "mikaxxl/ampio-system",
+    "description": "Ampio component system files",
+    "keywords"   : [
+        "ampio",
+        "psr",
+        "psr-4",
+        "psr-12"
+    ],
+    "license"    : "BSD-3-Clause",
+    "config"     : {
+        "sort-packages"      : true,
+        "optimize-autoloader": true
+    },
+    "require"    : {
+        "php"             : "^7.4",
+        "psr/container"   : "^1.0",
+        "psr/http-message": "^1.0",
+        "php-ds/php-ds"   : "^1.2.0",
+        "ext-mbstring"    : "*"
+    },
+    "autoload"   : {
+        "psr-4": {
+            "Ampio\\System\\": "/src/"
+        }
+    }
+}
