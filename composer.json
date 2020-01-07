@@ -8,6 +8,13 @@
         "psr-12"
     ],
     "license"    : "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Mikhail Erypalov",
+            "email": "mikaxxl@yandex.ru",
+            "role": "developer"
+        }
+    ],
     "config"     : {
         "sort-packages"      : true,
         "optimize-autoloader": true
